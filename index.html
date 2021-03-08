@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .video_section {
+                padding: 10px;
+                margin: 0 auto;
+                width: 100px;
+            }   
+ 
+            video {
+                width: 100%;
+            } 
+
+            .navbar {
+                display: flex;
+                padding: 10px;
+                background-color: #FFFFFF;
+                
+            }
+
+            .navbar a {
+                padding: 14px 20px;
+                font-size: 16px;
+                color: #000000;
+                text-decoration: none;
+            }
+
+            .navbar a:hover {
+                background-color: rgb(245, 245, 245);
+                color: rgb(255, 111, 97);
+            }
+
+            .navbar img {
+                width: 76px;
+                height: 50px;
+            }
+
+            .cover {
+                padding: 150px 30px;
+                background: url('media/cover.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .heading {
+                margin: 16px 0px;
+                font-size: 60px;
+                font-weight: 300;
+            }
+
+            .text1 {
+                font-size: 16px;
+                margin: 0%;
+            }
+
+            .post_title {
+                padding: 30px;
+            }
+
+            .post_title p {
+                font-size: 30px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .posts {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .post1, .post2, .post3 {
+                flex: 30%;
+                padding: 60px 10px;
+                margin: 20px;
+            }
+
+            .posts img{
+                padding: auto;
+                width: 100%;
+            }
+
+            .posts h1 {
+                margin: 5px 0px;
+                font-size: 20px;
+                font-weight: 510;
+            }
+
+            .posts p {
+                margin: 12px 0px;
+                font-size: 12px;
+            }
+
+            .posts a {
+                font-size: 16px;
+            }
+
+            .contact_section {
+                padding: 15px;
+                width: 100%;
+                background-color: #ff6f61;
+                text-align: center;
+                color:white;
+            }
+
+            .contact_section h1 {
+                font-size: 40px;
+                font-weight: 600;
+            }
+
+            .contact_section p {
+                font-size: 16px;
+            }
+
+            footer {
+                padding: 20px;
+                width: 100%;
+                font-size: 16px;
+                text-align: center;
+                
+            }
+
+        </style>
+    </head>
+
+        <body>
+            <div id="video_section">
+                <video autoplay loop>
+                    <source src="media/home_page_video.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="navbar">
+                <img src="media/logo.png" alt="logo">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="cover">
+                <p class="heading">We Promise To<br>Make You Laugh<br>Cry & Smile.</p>
+                <p class="text1">We know that your wedding day is a special day that you will remember for the rest of your life. <br>We also know that it can be very busy and hectic, which is why we focus on keeping things simple & easy.</p>
+            </div>
+
+            <div class="post_title">
+                <p>Blog Posts</p>
+            </div>
+            
+            <div class="posts">
+                <div class="post1">
+                    <img src="media/post-1.jpg" alt="Post1">
+                    <h1>POST 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugit id molestias nulla. Voluptatem assumenda alias voluptates animi obcaecati ullam, ab quod eveniet odit ducimus aperiam possimus officiis, adipisci molestias!</p>
+                    <a href="#">Read More</a>    
+                </div>
+                <div class="post2">
+                    <img src="media/post-2.jpg" alt="Post2">
+                    <h1>POST 2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugit id molestias nulla. Voluptatem assumenda alias voluptates animi obcaecati ullam, ab quod eveniet odit ducimus aperiam possimus officiis, adipisci molestias!</p>
+                    <a href="#">Read More</a>    
+                </div>
+                <div class="post3">
+                    <img src="media/post-3.jpg" alt="Post3">
+                    <h1>POST 3</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugit id molestias nulla. Voluptatem assumenda alias voluptates animi obcaecati ullam, ab quod eveniet odit ducimus aperiam possimus officiis, adipisci molestias!</p>
+                    <a href="#">Read More</a>    
+                </div>
+            </div>
+
+            <div class="contact_section">
+                <h1>Let Us Be A Part of Your Memories</h1>
+                <p>We know that your wedding day is a special day that you will remember for the rest of your life.</p>
+                <p>Book Now</p>
+            </div>
+        </body>
+
+        <footer>
+            <p>© All Rights Reserved.</p>
+        </footer>
+</html>
